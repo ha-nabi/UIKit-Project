@@ -20,6 +20,7 @@
 		63AC6C712BFA0412004EC50C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC6C702BFA0412004EC50C /* SearchViewController.swift */; };
 		63AC6C732BFA0435004EC50C /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC6C722BFA0435004EC50C /* DownloadsViewController.swift */; };
 		63AC6C7A2BFA0A64004EC50C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC6C792BFA0A64004EC50C /* CollectionViewTableViewCell.swift */; };
+		63AC6C7C2BFA10D0004EC50C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC6C7B2BFA10D0004EC50C /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		63AC6C702BFA0412004EC50C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		63AC6C722BFA0435004EC50C /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		63AC6C792BFA0A64004EC50C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		63AC6C7B2BFA10D0004EC50C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				63AC6C792BFA0A64004EC50C /* CollectionViewTableViewCell.swift */,
+				63AC6C7B2BFA10D0004EC50C /* HeroHeaderUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				63AC6C402BFA02A4004EC50C /* MainTabBarViewController.swift in Sources */,
 				63AC6C712BFA0412004EC50C /* SearchViewController.swift in Sources */,
 				63AC6C7A2BFA0A64004EC50C /* CollectionViewTableViewCell.swift in Sources */,
+				63AC6C7C2BFA10D0004EC50C /* HeroHeaderUIView.swift in Sources */,
 				63AC6C732BFA0435004EC50C /* DownloadsViewController.swift in Sources */,
 				63AC6C3C2BFA02A4004EC50C /* AppDelegate.swift in Sources */,
 				63AC6C3E2BFA02A4004EC50C /* SceneDelegate.swift in Sources */,
@@ -505,6 +509,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +537,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
